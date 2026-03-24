@@ -101,9 +101,10 @@ public:
 
             throw invalid_argument("Temperature cannot be below absoulte zero.");
 
-            celsius_ = celsius;
+           
 
         }
+        celsius_ = celsius;
 
     }
 
