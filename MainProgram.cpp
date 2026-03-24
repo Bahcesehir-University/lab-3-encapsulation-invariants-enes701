@@ -97,7 +97,7 @@ public:
 
         // TODO: Implement
 
-        if (celsius < 273.15){
+        if (celsius < -273.15){
 
             throw invalid_argument("Temperature cannot be below absoulte zero.");
 
@@ -477,3 +477,4 @@ int main() {
     return 0;
 
 }
+ 
